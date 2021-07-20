@@ -141,6 +141,56 @@ body {
   text-align: center;
 }
 
+/* Second Page */
+
+.pricepage {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:'bait2 bait3 bait4';
+}
+
+.bait2, .bait3, .bait4 {
+  margin: 25px
+}
+
+.bait1 {
+  width: auto;
+  background: var(--primary);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.bait2 {
+  grid-area: bait2;
+  background: var(--primary);
+  box-shadow: var(--shadow);
+}
+
+.bait3 {
+  grid-area: bait3;
+  background: var(--primary);
+  box-shadow: var(--shadow);
+}
+
+.bait4 {
+  grid-area: bait4;
+  background: var(--primary);
+  box-shadow: var(--shadow);
+}
+
+.table1, .table3 {
+  margin: auto;
+  margin-top: 30px;
+  font-size: 1.3em;
+}
+
+ .table2 {
+  margin: auto;
+  margin-top: 25px;
+}
+
+
+
 @media(max-width:800px)
 {
   .main-nav ul {
@@ -181,5 +231,12 @@ body {
     grid-template-areas: 'mail'
                         'phone'
                         'address';
+  }
+
+  .pricepage {
+
+    grid-template-areas:'bait2 bait4'
+                            'bait3';
+
   }
 }
