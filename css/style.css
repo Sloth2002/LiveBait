@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url(oceanb.jpg);
+  background: url("../images/oceanb.jpg");
 }
 .container {
   display: grid;
@@ -71,7 +71,7 @@ body {
 
 .open {
   min-height: 400px;
-  background: url(open.jpg);
+  background: url("../images/open.jpg");
   background-size: cover;
   padding: 3rem;
   box-shadow: var(--shadow);
@@ -95,7 +95,7 @@ body {
 
 .fish {
   min-height: 400px;
-  background: url(spool.jpg);
+  background: url("../images/spool.jpg");
   background-size: cover;
   background-position: center;
   padding: 3rem;
